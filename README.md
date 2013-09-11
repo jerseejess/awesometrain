@@ -1,5 +1,5 @@
 # Awesome Train
 
-This is the application for [*AwesomeTrain: Learn Relevant Skills & Get a Job*]
+This is the application for Awesome Train.
 
 by [Jessica Lin](http://jerseejess.com)
