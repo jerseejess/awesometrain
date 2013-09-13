@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'devise'
+gem 'simple_form', '~> 3.0.0.rc'
 
 group :production do
 	gem 'pg'

@@ -6,12 +6,14 @@ body{
     padding-top: 80px;
 }
 
-@import 'bootstrap-responsive';
-
 @import 'flat-ui';
 
 .navbar .nav > li > a {
 	color: #ecf0f1;
+}
+
+.brand {
+	text-decoration: none;
 }
 
 .navbar-inner{
@@ -26,3 +28,6 @@ body{
       color: $gray;
   }
 }
+
+
+@import 'bootstrap-responsive';

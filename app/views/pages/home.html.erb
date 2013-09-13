@@ -1,7 +1,10 @@
-<div class="center hero-unit">
-    <h1>Welcome! </h1>
-    <p>to <%= link_to 'Awesome Train',  "#" %>
-     </p>
+<% if user_signed_in? %>
+	<h1> You're logged in!</h1>
+<% else %>
+	<div class="center hero-unit">
+	    <h1>Welcome to Awesome Train!</h1>
+	    <p>Building Awesome Trainings Easily</p>
+	    <p> <%= link_to 'Sign up now!', new_user_registration_path, class: "btn btn-large btn-primary" %> </p>
+	</div>
+<% end %>
 
-    <p> <%= link_to 'Sign up now!',  "#" , class: "btn btn-large btn-primary" %> </p>
-</div>
