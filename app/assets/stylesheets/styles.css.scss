@@ -1,0 +1,28 @@
+$navbarBackgroundHighlight: #34495e;
+$navbarBackground: #34495e;
+
+@import 'bootstrap';
+body{
+    padding-top: 80px;
+}
+
+@import 'bootstrap-responsive';
+
+@import 'flat-ui';
+
+.navbar .nav > li > a {
+	color: #ecf0f1;
+}
+
+.navbar-inner{
+  @include box-shadow(none !important);
+  border: 0;
+}
+
+.footer{
+  margin-top: 50px;
+  color: $grayLight;
+  a{
+      color: $gray;
+  }
+}
