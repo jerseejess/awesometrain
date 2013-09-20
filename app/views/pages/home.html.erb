@@ -1,10 +1,75 @@
+<!-- Hero Unit -->
+
 <% if user_signed_in? %>
 	<h1> You're logged in!</h1>
 <% else %>
 	<div class="center hero-unit">
-	    <h1>Welcome to Awesome Train!</h1>
-	    <p>Building Awesome Trainings Easily</p>
-	    <p> <%= link_to 'Sign up now!', new_user_registration_path, class: "btn btn-large btn-primary" %> </p>
+	    <h1>Welcome to Awesome Train</h1>
+	    <h3>Building Awesome Trainings Easily</h3>
+	    <p> <%= link_to 'Sign Up Now', new_user_registration_path, class: "btn btn-large btn-primary" %> </p>
 	</div>
 <% end %>
 
+<!-- End Hero Unit -->
+
+
+<!-- Begin MailChimp Signup Form -->
+			
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width: 500px; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
+<div class="row-fluid">
+  <div class="span4 offset4">
+		<div id="mc_embed_signup">
+			<form action="http://skillvee.us6.list-manage.com/subscribe/post?u=bac00f58fb88266d3d3bbf70d&amp;id=79cdebb214" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<label for="mce-EMAIL">Sign Up To Hear When We Launch!</label>
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
+				<div class="clear">
+					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- End mc_embed_signup-->
+
+<!-- how to attach to db? -->
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span4">
+    </div>
+    <div class="span4">
+    <form class="form-inline">
+	<h4>Sign up for more info!</h4>
+  <input type="text" class="input-small" style="width: 250px" placeholder="Email">
+  <button type="submit" class="btn">Sign Up</button>
+</form>
+    </div>
+  </div>
+</div>
+
+
+<!-- end -->
+
+<div class="middle-section">
+	<div class="row-fluid">
+		<div class="span4">
+			<center><img src="mail.png" width="160" height="160"></center>
+			<h4>Interactive</h4>
+		</div>
+		<div class="span4">
+			<center><img src="chat.png" width="160" height="160"></center>
+			<h4>Easy to Use</h4>
+		</div>
+		<div class="span4">
+			<center><img src="bulb.png" width="160" height="160"></center>
+			<h4>Relevant</h4>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,20 @@
+<h1>Listing trainings</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+        <th>Description</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <%= render @trainings %>
+  </tbody>
+</table>
+
+<br />
+
+<%= link_to 'New Training', new_training_path %>

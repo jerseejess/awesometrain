@@ -1,4 +1,6 @@
 Awesometrain::Application.routes.draw do
+  resources :trainings
+
   devise_for :users
   get 'about' => 'pages#about'
 
